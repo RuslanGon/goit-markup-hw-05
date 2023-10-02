@@ -483,3 +483,62 @@ footer .container {
     background-color: #31d0aa;
 }
 
+.subscribe-form {
+	display: flex;
+	gap: 24px;
+}
+
+.Subscribe-input {
+	width: 264px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	padding-left: 16px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	color: #ffffff;
+}
+
+.subscribe-input::placeholder{
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+}
+
+.Subscribe-btn {
+    min-width: 165px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	padding: 8px 24px;
+	cursor: pointer;
+	background-color: #4D5AE5;
+	border: none;
+	border-radius: 4px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover, .subscribe-btn:focus {
+	background-color: #404BBF;
+}
+
+.subscribe-icon {
+	margin-left: 16px;
