@@ -544,11 +544,10 @@ footer .container {
 	margin-left: 16px;
 }
 
-.is-open {
+.modal.is-open {
     visibility: visible;
     opacity: 1;
 }
-
 
 .modal {
     position: fixed;
